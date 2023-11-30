@@ -1,2 +1,10 @@
+
 # Sliding_Mode_Control_simulink
-matlab simulink仿真文件
+%matlab simulink仿真文件 ,来源参考B站UP主德狗追求独立关于滑模控制的视频
+其中一共有四个文件夹：
+Sfunction_setpback是反步法用s函数搭建对应的仿真
+SMC_01是普通滑模控制对应的仿真
+SMC_02是鲁棒滑模控制中干扰知道最大值和最小值的情况
+SMC_03是鲁棒滑模控制中干扰只知道绝对值小于某个值对应的情况，这种情况有点特殊，或是我搭错了，我发现无论怎么修改D的值，仿真结果都能很好跟上输入
+
+
